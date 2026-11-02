@@ -1,0 +1,192 @@
+{
+  "Базовый": {
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 0.05226799999945797,
+    "objective": 45120.999999999985,
+    "check": {
+      "ok": true,
+      "violations": {
+        "binary": 3.774758283725532e-15,
+        "bounds": 3.552713678800501e-15,
+        "coverage": 3.774758283725532e-15,
+        "daily_limit": 3.552713678800501e-15,
+        "weekly_limit": 3.552713678800501e-15,
+        "night_limit": 3.552713678800501e-15,
+        "night_rest": 3.552713678800501e-15,
+        "activation_big_m": 3.552713678800501e-15,
+        "unavailability": 0.0
+      },
+      "objective": 45120.999999999985,
+      "working_operators": [
+        "О01",
+        "О03",
+        "О04",
+        "О05",
+        "О06",
+        "О07",
+        "О08",
+        "О09",
+        "О10"
+      ],
+      "covered": [
+        [
+          2.0,
+          2.0,
+          2.0000000000000018
+        ],
+        [
+          1.9999999999999962,
+          1.9999999999999962,
+          1.9999999999999962
+        ],
+        [
+          2.0,
+          1.999999999999998,
+          2.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          1.9999999999999978,
+          1.9999999999999978,
+          2.0000000000000018
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          1.9999999999999982,
+          1.9999999999999964,
+          2.0
+        ]
+      ],
+      "total_assignments": 41.999999999999986
+    },
+    "mip_gap": 0.0,
+    "mip_nodes": 1,
+    "dual_bound": 45120.99999999998,
+    "selected_operators": [
+      "О01",
+      "О03",
+      "О04",
+      "О05",
+      "О06",
+      "О07",
+      "О08",
+      "О09",
+      "О10"
+    ],
+    "lp_relaxation_objective": 44910.0,
+    "integrality_gap_pct": 0.4676314797987312,
+    "fractional_variables_in_relaxation": 15,
+    "fractional_example": {
+      "index": 9,
+      "value": 0.33333333333333326
+    }
+  },
+  "Дефицитный": {
+    "status": "optimal",
+    "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+    "seconds": 0.019001799999387003,
+    "objective": 46515.0,
+    "check": {
+      "ok": true,
+      "violations": {
+        "binary": 0.0,
+        "bounds": 0.0,
+        "coverage": 0.0,
+        "daily_limit": 0.0,
+        "weekly_limit": 0.0,
+        "night_limit": 0.0,
+        "night_rest": 0.0,
+        "activation_big_m": 0.0,
+        "unavailability": 0.0
+      },
+      "objective": 46515.0,
+      "working_operators": [
+        "О01",
+        "О02",
+        "О03",
+        "О04",
+        "О05",
+        "О06",
+        "О07",
+        "О08",
+        "О09"
+      ],
+      "covered": [
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ],
+        [
+          2.0,
+          2.0,
+          2.0
+        ]
+      ],
+      "total_assignments": 42.0
+    },
+    "mip_gap": 0.0,
+    "mip_nodes": 1,
+    "dual_bound": 46515.0,
+    "selected_operators": [
+      "О01",
+      "О02",
+      "О03",
+      "О04",
+      "О05",
+      "О06",
+      "О07",
+      "О08",
+      "О09"
+    ]
+  },
+  "Стрессовый": {
+    "status": "infeasible",
+    "message": "The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None)",
+    "seconds": 0.008021900001040194,
+    "objective": null,
+    "check": null,
+    "mip_gap": null,
+    "mip_nodes": 0,
+    "dual_bound": null,
+    "conflict": {
+      "required_shifts": 63,
+      "aggregate_upper_limit": 40,
+      "proven_infeasible_by_capacity": true
+    }
+  }
+}

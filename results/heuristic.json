@@ -1,0 +1,70 @@
+{
+  "status": "feasible",
+  "seconds": 0.0443784000017331,
+  "objective": 45221.0,
+  "check": {
+    "ok": true,
+    "violations": {
+      "binary": 0.0,
+      "bounds": 0.0,
+      "coverage": 0.0,
+      "daily_limit": 0.0,
+      "weekly_limit": 0.0,
+      "night_limit": 0.0,
+      "night_rest": 0.0,
+      "activation_big_m": 0.0,
+      "unavailability": 0.0
+    },
+    "objective": 45221.0,
+    "working_operators": [
+      "О01",
+      "О03",
+      "О04",
+      "О05",
+      "О06",
+      "О07",
+      "О08",
+      "О09",
+      "О10"
+    ],
+    "covered": [
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "total_assignments": 42.0
+  },
+  "gap_pct": 0.22162629374352205
+}

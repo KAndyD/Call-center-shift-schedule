@@ -1,0 +1,7 @@
+{
+  "M_tight": 5,
+  "M_excessive": 500,
+  "relaxation_tight": 44910.0,
+  "relaxation_excessive": 42056.82,
+  "loss_of_lower_bound": 2853.1800000000003
+}

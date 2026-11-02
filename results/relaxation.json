@@ -1,0 +1,79 @@
+{
+  "status": "optimal",
+  "message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "seconds": 0.01023680000071181,
+  "objective": 44910.0,
+  "check": {
+    "ok": true,
+    "violations": {
+      "binary": 0.0,
+      "bounds": 2.220446049250313e-16,
+      "coverage": 0.0,
+      "daily_limit": 2.220446049250313e-16,
+      "weekly_limit": 0.0,
+      "night_limit": 0.0,
+      "night_rest": 2.220446049250313e-16,
+      "activation_big_m": 0.0,
+      "unavailability": 0.0
+    },
+    "objective": 44910.0,
+    "working_operators": [
+      "О01",
+      "О03",
+      "О04",
+      "О06",
+      "О07",
+      "О08",
+      "О09",
+      "О10"
+    ],
+    "covered": [
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ],
+      [
+        2.0,
+        2.0,
+        2.0
+      ]
+    ],
+    "total_assignments": 42.0
+  },
+  "selected_operators": [
+    "О01",
+    "О03",
+    "О04",
+    "О06",
+    "О07",
+    "О08",
+    "О09",
+    "О10"
+  ]
+}

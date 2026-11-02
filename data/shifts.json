@@ -1,0 +1,100 @@
+{
+  "variant": 5,
+  "seed": 10014,
+  "group": "Б24-507",
+  "student_number": 14,
+  "days": [
+    "Пн",
+    "Вт",
+    "Ср",
+    "Чт",
+    "Пт",
+    "Сб",
+    "Вс"
+  ],
+  "shifts": [
+    "Утро",
+    "Вечер",
+    "Ночь"
+  ],
+  "hours_per_shift": 8,
+  "coverage_per_day": [
+    2,
+    2,
+    2
+  ],
+  "max_shifts_per_week": 5,
+  "max_nights_per_week": 2,
+  "staff": [
+    {
+      "id": "О01",
+      "hourly_cost": 109,
+      "activation_cost": 245,
+      "day_off": 1,
+      "night_extra": 33
+    },
+    {
+      "id": "О02",
+      "hourly_cost": 147,
+      "activation_cost": 385,
+      "day_off": 4,
+      "night_extra": 26
+    },
+    {
+      "id": "О03",
+      "hourly_cost": 143,
+      "activation_cost": 406,
+      "day_off": 0,
+      "night_extra": 32
+    },
+    {
+      "id": "О04",
+      "hourly_cost": 113,
+      "activation_cost": 319,
+      "day_off": 3,
+      "night_extra": 45
+    },
+    {
+      "id": "О05",
+      "hourly_cost": 148,
+      "activation_cost": 331,
+      "day_off": 6,
+      "night_extra": 35
+    },
+    {
+      "id": "О06",
+      "hourly_cost": 141,
+      "activation_cost": 413,
+      "day_off": 2,
+      "night_extra": 25
+    },
+    {
+      "id": "О07",
+      "hourly_cost": 108,
+      "activation_cost": 289,
+      "day_off": 5,
+      "night_extra": 33
+    },
+    {
+      "id": "О08",
+      "hourly_cost": 118,
+      "activation_cost": 408,
+      "day_off": 1,
+      "night_extra": 32
+    },
+    {
+      "id": "О09",
+      "hourly_cost": 138,
+      "activation_cost": 275,
+      "day_off": 4,
+      "night_extra": 17
+    },
+    {
+      "id": "О10",
+      "hourly_cost": 112,
+      "activation_cost": 373,
+      "day_off": 0,
+      "night_extra": 35
+    }
+  ]
+}

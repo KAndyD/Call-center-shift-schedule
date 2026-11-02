@@ -1,0 +1,29 @@
+[
+  {
+    "operators": 10,
+    "status": "optimal",
+    "seconds": 0.05226799999945797,
+    "mip_gap": 0.0,
+    "lp_gap_pct": 0.4676314797987312,
+    "objective": 45120.999999999985,
+    "lp_bound": 44910.0
+  },
+  {
+    "operators": 20,
+    "status": "optimal",
+    "seconds": 0.2701541999995243,
+    "mip_gap": 0.0,
+    "lp_gap_pct": 0.08161479131339185,
+    "objective": 91405.0,
+    "lp_bound": 91330.4
+  },
+  {
+    "operators": 40,
+    "status": "optimal",
+    "seconds": 0.16685570000117877,
+    "mip_gap": 0.0,
+    "lp_gap_pct": 0.053812564112625215,
+    "objective": 178397.0,
+    "lp_bound": 178301.0
+  }
+]

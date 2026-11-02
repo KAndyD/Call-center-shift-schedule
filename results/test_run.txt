@@ -1,0 +1,13 @@
+test_bad_schedule_rejected (test_solution.ScheduleTests.test_bad_schedule_rejected) ... ok
+test_greedy_if_found (test_solution.ScheduleTests.test_greedy_if_found) ... ok
+test_integer_feasibility (test_solution.ScheduleTests.test_integer_feasibility) ... ok
+test_missing_operator_scenario (test_solution.ScheduleTests.test_missing_operator_scenario) ... ok
+test_oversized_big_m_weakens_bound (test_solution.ScheduleTests.test_oversized_big_m_weakens_bound) ... ok
+test_relaxation_lower_bound (test_solution.ScheduleTests.test_relaxation_lower_bound) ... ok
+test_reproducible (test_solution.ScheduleTests.test_reproducible) ... ok
+test_stress_conflict (test_solution.ScheduleTests.test_stress_conflict) ... ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.085s
+
+OK

@@ -1,0 +1,7 @@
+Python: 3.14.7
+SciPy: 1.17.0
+HiGHS MIP branch-and-bound; presolve=true; mip_rel_gap=1e-4; time_limit=12s
+Базовый: Optimization terminated successfully. (HiGHS Status 7: Optimal); objective=45120.999999999985; MIP gap=0.0; B&B nodes=1
+Дефицитный: Optimization terminated successfully. (HiGHS Status 7: Optimal); objective=46515.0; MIP gap=0.0; B&B nodes=1
+Стрессовый: The problem is infeasible. (HiGHS Status 8: model_status is Infeasible; primal_status is None); objective=None; MIP gap=None; B&B nodes=0
+LP relaxation: Optimization terminated successfully. (HiGHS Status 7: Optimal)
